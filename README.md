@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 npm i
-Then run
+
 npm run dev
 ```
 

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.underline {
+  border-bottom: 1px;
+}
+@layer utilities {
+  .widthClass {
+    width: 24vw;
+  }
+}
+.widthClass2 {
+  width: 14vw;
+}
+.overflows {
+  overflow: auto;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.for_image_selector {
+  display: none;
+}
